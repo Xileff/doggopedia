@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/header-dog.png"/>
+    <title>Dog Care Detail</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md fixed-top">
+            <a href="Homepage.html" class="navbar-brand">
+                <span>
+                    <img src="/images/header-dog.png" alt="doggopedia_logo">
+                </span>
+                <p>DoggoPedia</p>
+            </a>
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle ="collapse"
+            data-bs-target = "#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span>
+                <i class="fas fa-list"></i>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ms-auto text-center">
+                <li>
+                    <a class="nav-link" href="DogList.html">Buy Dogs</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="ProductList.html">Dog Needs</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="DogCareList.html">Dog Care</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="Homepage.html#map-title">Find Us</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="AboutUs.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+        <!-- Navbar -->
+
+        <section class="container-fluid container-sm container-md container-lg container-xl product-detail">
+            <h1 class="text-center bold dogcare-name">Dog Grooming</h1>
+
+            <!-- Desktop Carousel -->
+            <div class="desktop container-fluid row text-center">
+                <div class="col-sm-4 col-md-4 col-lg-4 container-xl dogcare-carousel w-75">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="/images/Dog Care Detail/dog-care-1.jpg" class="d-block w-100 dogcare-image" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="/images/Dog Care Detail/dog-detail-2.jpg" class="d-block w-100 dogcare-image" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Desktop Carousel -->
+
+            <!-- Mobile Carousel -->
+            <div id="carouselExampleControls" class="mobile carousel slide dogcare-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/images/Dog Care Detail/dog-care-1.jpg" class="d-block w-100 dogcare-image" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/Dog Care Detail/dog-detail-2.jpg" class="d-block w-100 dogcare-image" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/Dog Care Detail/dog-care-1.jpg" class="d-block w-100 dogcare-image" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Mobile Carousel -->
+
+            <p class="dogcare-paragraph">Dog grooming refers to both the hygienic care and cleaning of a dog, as well as a process by which a dog's physical appearance is enhanced for showing or other types of competition. A dog groomer is a person who earns their living grooming dogs.</p>
+
+            <div class="text-center">
+                <a href="Payment.html">
+                    <button class="buy-button text-center">
+                        Make Payment and Set Appointment
+                    </button>
+                </a>
+            </div>
+            
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="row text">
+            <h4>&copy; Copyright 2021 by Felix Savero</h4>
+        </div>
+        <div class="row">
+            <div class="container social-media">
+                <ul>
+                    <li class="list-item col-sm-4 col-md-4 col-lg-4">
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="list-item col-sm-4 col-md-4 col-lg-4">
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="list-item col-sm-4 col-md-4 col-lg-4">
+                        <a href="#">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- Back to top button -->
+    <button
+    type="button"
+    class="btn btn-warning btn-floating btn-lg circle"
+    id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="btnTop.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

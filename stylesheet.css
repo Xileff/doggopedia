@@ -1,0 +1,1594 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300;400&family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #FFDBB5;
+    box-sizing: border-box;
+}
+
+script {
+    display: none;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+h1 {
+    color: #A52A2A;;
+}
+
+h3 {
+    color: #D1330D;
+    text-align: center;
+    margin: 10px auto;
+}
+
+nav {
+    background-color: #FFF7E1;
+    border-radius: 18px;
+    z-index: 99;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+nav p {
+    display: inline-block;
+    color: #A52A2A;
+    font-weight: bold;
+}
+
+.nav-link {
+    color:#F5785A;
+}
+
+.container-main {
+    margin: 0 auto;
+}
+
+.fas {
+    color: #F5785A;
+}
+
+.fas:active {
+    color: #A52A2A;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.4));
+}
+
+.circle {
+    border-radius: 100%;
+}
+
+/* Tablet and desktop */
+@media (min-width: 768px) {
+    /* Navbar */
+    nav {
+        top: 15px;
+        padding: 20px 30px;
+    }
+
+    nav p {
+        margin-left: 10px;
+    }
+
+    .navbar {
+        top: 20px;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .navbar-brand img {
+        width: 53px;
+        height: 53px;
+    }
+
+    .nav-link {
+        font-size: 18px;
+        font-weight: 500;  
+    }
+
+    .nav-link:hover {
+        color: #A52A2A;
+    }
+
+    /* Navbar */
+
+
+    /* Homepage Images */
+
+    #desktop-main-images {
+        margin-top: 80px;
+    }
+
+    #homepage-images-buydogs {
+        margin: 0 auto;
+    }
+
+    #homepage-images-link {
+        margin-top: 20px;
+        text-decoration: none;
+        color: #A52A2A;
+    }
+
+    .homepage-images {
+        /* background-color: salmon; */
+        margin-top: 40px;
+        border-radius: 18px;
+        height: 100%;
+        align-items: center;
+        padding: 3px;
+    }
+
+    .homepage-images .homepage-images-webname {
+        text-align: center;
+        font-size: 60px;
+        font-weight: bold;
+        height: fit-content;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .homepage-images img {
+        border-radius: 18px;
+    }
+
+    .first-row {
+        /* background-color: sandybrown; */
+        border-radius: 18px;
+        height: fit-content;
+        margin: 5px;
+    }
+
+    .first-row-left {
+        /* background-color: sienna; */
+        border-radius: 18px;
+        padding: 5px;
+    }
+
+    .first-row-left-images-left, .first-row-right-images-right {
+        display: inline-block;
+        margin-top: -100px;
+    }
+
+    .first-row-images-left {
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+
+    #homepage-images-1 {
+        height: 500px;
+        
+    }
+
+    #homepage-images-2 {
+        height: 500px;
+    }
+
+    .first-row-right {
+        /* background-color:burlywood; */
+        border-radius: 18px;
+        padding: 5px;
+        margin-left: 24px;
+    }
+
+    #homepage-images-3 {
+        height: 100%;
+    }
+
+    .second-row {
+        /* background-color: sandybrown; */
+        border-radius: 18px;
+        height: fit-content;
+        margin: 15px auto;
+    }
+
+    #homepage-images-4 {
+        margin-left: 25px;
+        padding: 10px;
+        border-radius: 23px;
+    }
+
+    #homepage-images-5 {
+        height: 378px;
+        margin-left: 18px;
+        width: 98.5%;
+        background-image: url(/images/homepage/two\ dogs.jpg);
+    }
+    /* Homepage Images */
+
+    /* Paws */
+
+    .universal .paws {
+        float: left;
+        margin: 20px 50px;
+    }
+
+    .fa-paw {
+        color: #681A1A;
+        font-size: 50px;
+    }
+
+    /* Paws */
+
+    /* Video */
+    .row-videos {
+        margin-top: 50px;
+    }
+
+    .row-videos .content {
+        width: 330px;
+        height: fit-content;
+        padding: 0;
+        border-radius: 18px;
+        background-color: #FCEAD7;
+        margin: 0px auto 20px auto;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .row-videos .content video {
+        width: 100%;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+
+    .row-videos {
+        padding: 5px 12px;
+    }
+
+    .video-explanation {
+        padding: 0px 12px 12px 12px;
+        font-family: 'Poppins', sans-serif;
+    }
+    /* Video */
+
+    /* mainbutton */
+
+    #homepage-mainbutton {
+        border-radius: 20px;
+        border: none;
+        margin: 70px auto;
+        width: 80%;
+        padding: 30px;
+        font-size: 40px;
+        font-weight: bold;
+        background-color: #F5D069;
+        color: #A52A2A;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(-4px -4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    /* mainbutton */
+
+    /* testimonials */
+
+    .testimonials-container .content .testi_img {
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .testimonials-container .content {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    /* testimonials */
+
+    /* maps */
+    .maps {
+        width: 100%;
+        height: fit-content;
+        margin: 0 auto;
+        border-radius: 18px;
+    }
+
+    .embed {
+        width: 100%;
+    }
+
+    .maps #map-container-google-1 {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    #map-container-google-1 iframe {
+        border: 1px solid black;
+        border-radius: 18px;
+        width: 100%;
+        height: 100%;
+    }
+
+    /* maps */
+
+    /* footer */
+
+    footer h4 {
+        color: #8a2222e1;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 55px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 30px 30px 0px 30px;
+    }
+
+    footer ul {
+        display: flex;
+        text-align: center;
+    }
+
+    footer .social-media {
+        width: 40%;
+        margin: 30px auto;
+    }
+
+    footer .list-item {
+        font-size: 50px;
+    }
+
+    footer .fa-instagram {
+        color: #C70F67 !important;
+    }
+
+    footer .fa-telegram {
+        color: #1AB1E0 !important;
+    }
+
+    /* footer */
+
+    /* Payment Page */
+    .payment-menu {
+        margin: 130px auto 150px auto;
+        padding: 50px;
+    }
+
+    .payment-menu h1 {
+        font-weight: bold;
+        margin-bottom: 70px;
+    }
+
+    .payment-button {
+        margin: 20px auto 80px auto;
+        border-radius: 23px;
+        border: none;
+        width: 100%;
+        padding: 20px 10px;
+        color: white;
+        font-size: 30px;
+        font-weight: 630;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+    /* Payment */  
+    
+    /* About Us */
+
+    .container-aboutus {
+        margin: 130px auto 20px auto;
+        padding: 20px;
+    }
+
+    .container-image {
+        margin: 25px auto;
+        width: 500px;   
+    }
+
+    .container-image img {
+        border-radius: 33px;
+    }
+
+    .aboutus-description {
+        font-family: 'Poppins', sans-serif;
+        font-size: 25px;
+        padding: 20px;
+    }
+
+    #aboutus-footer {
+        margin-top: 10px;
+    }
+
+    /* About Us */
+
+    /* Product Detail(Dog Care & Dog Needs) */
+
+    .product-detail {
+        margin-top: 140px;
+    }
+
+    .buy-button {
+        margin: 20px auto 45px auto;
+        border-radius: 23px;
+        border: none;
+        width: 100%;
+        padding: 20px;
+        background-color: #F5D069;
+        color: #D1330D;
+        font-size: 36px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 630;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    .buy-button:hover {
+        background-color: #E04D29;
+        color: #F5D069;
+        transition: 250ms;
+    }
+
+    .dogcare-name {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
+    }
+
+    .dogcare-carousel {
+        width: 100%;
+    }
+
+    .carousel-item {
+        margin-top: 30px;
+    }
+
+    .carousel-item .dogcare-image {
+        border-radius: 25px;
+    }
+
+    .dogcare-paragraph {
+        padding: 20px;
+        font-family: 'Poppins', sans-serif;
+        text-align: justify;
+    }
+
+    /* Dogcare list */
+    #dogcarelist-title {
+        font-family: 'Poppins', sans-serif;
+        text-align: justify;
+        font-size: 53px;
+        font-weight: bold;
+    }
+
+    .dogcare-list-item {
+        margin-bottom: 100px;
+    }
+
+    .dogcare-list-item-name {
+        color: #A52A2A;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 48px;
+        margin-bottom: 28px;
+    }
+
+    .dogcare-list-item-description p {
+        height: 70%;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .dogcare-list-item-description .dogcare-list-item-buy-button {
+        height: 30%;
+        border-radius: 20px;
+        border: none;
+        width: 100%;
+        background-color: #F5D069;
+        color: #D1330D;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    .dogcare-list-item-buy-button:hover{
+        transition: 400ms;
+        background-color: #D1330D;
+        color: #F5D069;
+    }
+
+    .dogcare-list-item-img {
+        border-radius: 20px;
+    }
+
+    .dogcare-list-item-description {
+        padding: 20px;
+    }
+
+    /* Dogcare list */
+
+    /* Product Detail(Dog Care & Dog Needs) */
+    #dog-needs-description-container {
+        padding: 20px 50px 0px 50px;
+    }
+
+    #dog-needs-img {
+        border-radius: 20px;
+    }
+
+    #dog-needs-name {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #dog-needs-name h1 {
+        font-size: 80px;
+        font-weight: 600;
+    }
+
+    #dog-needs-name h3 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    #dog-needs-buttons-container {
+        margin: 30px 0px 0px 30px;
+        justify-content: center;
+    }
+
+    #dog-needs-description-container {
+        font-size: 22px;
+    }
+
+    #dog-needs-cart-container, #dog-needs-wishlist {
+        width: fit-content;
+    }
+
+    #dog-needs-buy-button {
+        border-radius: 18px;
+        padding: 13px;
+        width: 100%;
+        border: none;
+        height: fit-content;
+        background-color: #F5D069;
+        color: #D1330D;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+        margin-bottom: 20px;
+    }
+
+    #row-wishlist-cart {
+        display: flex;
+        width: max-content;
+        padding: 0;
+        justify-content: center;
+    }
+
+    #dog-needs-cart, #dog-needs-wishlist {
+        border-radius: 100%;
+        width: fit-content;
+        height: fit-content;
+        border: none;
+        padding: 10px 10px 7px 10px;
+        font-size: 25px;
+        background-color: #F5D069;
+        color: #D1330D;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    #dog-needs-buy-button:hover {
+        background-color: #D1330D;
+        color: #F5D069;
+        transition: 250ms;
+    }
+
+    #dog-needs-cart:hover, #dog-needs-wishlist:hover {
+        transition: 250ms;
+        background-color: #ffbb00;
+        color: #F5D069;
+    }
+
+    .button-fit-content {
+        width: 60%;
+    }
+
+    #dog-needs-detail-footer {
+        margin-top: 180px;
+        padding: 30px 30px 0px 30px;
+    }
+    /* Product Detail(Dog Care & Dog Needs) */
+
+    /* Dog Care List */
+
+    #dogcare-title {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+
+    /* Dog Care List */
+
+    /* Dog List */
+    .dog-type-link {
+        text-decoration: none;
+        color: #A52A2A;
+    }
+
+    .dog-type-link:hover {
+        color: #A52A2A;
+    }
+
+    .dog-type-container {
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    }
+
+    .dog-type-container:hover {
+        transition: 400ms;
+        background-color: chocolate;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+    }
+
+    .dog-list-img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .doglist-name {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: #A52A2A;
+    }
+
+    .doglist-description {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
+
+    .productlist-text-container:hover,.doglist-text-container:hover {
+        transition: 400ms;
+        background-color: #fdd1a6;
+    }
+
+    .doglist-details-button {
+        float: right;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 30px;
+        color: #D1330D;
+        background-color: #F5D069;
+        font-family: 'Poppins', sans-serif;
+        box-shadow:0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    .doglist-details-button:hover {
+        transition: 250ms;
+        color: #F5D069;
+        background-color: #D1330D;
+        font-weight: 700;
+    }
+
+    .card-body {
+        background-color: #fbe5ce;
+        /* border: 1px solid #A52A2A; */
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    /* Dog List */
+
+    /* Product List */
+    .product-list-row {
+        margin-bottom: 30px;
+    }
+
+    .product-list-link {
+        text-decoration: none;
+    }
+
+    .product-list-link .product-list-name {
+        color: #A52A2A;
+    }
+
+    .product-list-price {
+        color: #D1330D;
+    }
+
+    .product-type-container {
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .product-type-container:hover {
+        transition: 1000ms;
+        background-color: chocolate;
+        /* box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.25); */
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+    }
+
+    .product-list-img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .product-list-button {
+        width: 100%;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: #D1330D;
+        background-color: #F5D069;
+        font-family: 'Poppins', sans-serif;
+        box-shadow:0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    .product-list-button:hover {
+        transition: 300ms;
+        background-color: #D1330D;
+        color: #F5D069;
+        box-shadow:0px 12px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Product List */
+
+    /* Dog Details */
+    .dog-main-pic-container {
+        margin-bottom: 30px;
+    }
+
+    .dog-subimg-container {
+        border-radius: 20px;
+        border: none;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25), 10px 10px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .dog-subimg-container:hover {
+        transition: 400ms;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.25), 30px 30px 50px rgba(0, 0, 0, 0.25);
+    }
+
+    .dog-details-main-pic {
+        margin: 0 auto;
+        border-radius: 50px;
+    }
+
+    .dog-details-name {
+        font-size: 60px;
+        font-weight: 1000;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .dog-detail-subimg {
+        border-radius: 20px;
+    }
+
+    .dog-details-video-container {
+        border-radius: 20px;
+    }
+
+    .dog-details-video-container video {
+        border-radius: 10px;
+    }
+
+    /* Dog Details */
+
+    /* Cart */
+    table {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .table-rounded {
+        background-color: #FDF4EB;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        padding: 20px;
+    }
+
+    .table-rounded tr, .table-rounded td {
+        border-bottom: none;
+    }
+
+    .table-img {
+        border-radius: 18px;
+    }
+
+    .table-img1 {
+        border-radius: 18px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .table-item-name {
+        color: #D1330D;
+    }
+
+    .column-title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #681A1A;
+    }
+
+    #cart-payment-button {
+        width: 100%;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: #D1330D;
+        background-color: #F5D069;
+        font-family: 'Poppins', sans-serif;
+        box-shadow:0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    #cart-payment-button:hover {
+        transition: 400ms;
+        background-color: #D1330D;
+        color: #F5D069;
+    }
+
+    #cart-footer {
+        margin-top: 100px;
+    }
+
+    /* Cart */
+
+    .mobile {
+        display: none;
+    }
+}
+
+/* Universal Styling */
+/* ============================================= */
+
+/* Paws */
+
+.universal .paws-container {
+    list-style-type: none;
+    margin: 10px auto;
+    align-items: center;
+    width: fit-content;
+}
+
+/* Paws */
+
+/* Homepage: video-container */
+
+/* Homepage: video-container */
+
+#homepage-mainbutton p {
+    display: inline;
+    margin: 30% auto;
+}
+
+#homepage-mainbutton:hover {
+    background-color: #E04D29;
+    color: yellow;
+    transition: 0.5s;
+}
+
+/* Testimonials */
+
+.content:hover, .testimonials-container .content:hover {
+    filter: drop-shadow(0px 15px 15px rgba(0, 0, 0, 0.25));
+    transition: 0.5s;
+}
+
+.testimonials-container {
+    margin: 30px auto;
+}
+
+.testimonials-container .content {
+    border-radius: 18px;
+    background-color: #FCEAD7;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.testimonials-container .content img {
+    width: 100%;
+    height: 350px;
+}
+
+.testimonials-container .testimonial-explanation {
+    padding: 10px;
+}
+
+footer {
+    background-color: #C7A27C;
+}
+
+footer h4 {
+    color: #8a2222e1;
+    text-align: center;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+/* Testimonials */
+
+/* Payment */
+
+#payment-va {
+    background-color: #0468FD;
+}
+
+#payment-ewallet {
+    background-color: #36CF57;
+}
+
+#payment-paypal {
+    background-color: #1AB1E0;
+}
+
+/* Payment */
+
+/*  UniversalStyling */
+/* ============================================= */
+
+@media (max-width: 767px) {
+    .desktop {
+        display: none;
+    }
+
+    /* Navbar */
+    nav {
+        top: 15px;
+        padding: 10px 20px;
+    }
+
+    nav p {
+        margin-left: 10px;
+        font-size: 20px;
+        padding-top: 10px;
+        }
+
+    .navbar {
+        top: 8px;
+        
+        width: fit-content;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .navbar-brand img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .nav-link {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .nav-link:hover {
+        color: #A52A2A;
+    }
+
+    /* Navbar */
+
+    /* Main-Images */
+    
+    .mobile {
+        margin-top: 100px;
+    }
+
+    .mobile h1 {
+        color: #A52A2A;
+        font-weight: bold;
+    }
+
+    .container-main-image {
+        margin-top: 30px auto 30px auto;
+    }
+
+    .mobile-main-image-col {
+        width: 100%;
+    }
+
+    /* Main-Images */
+
+    /* Paws */
+
+    .universal .paws-container {
+        margin: 0 auto;
+        width: fit-content;
+    }
+
+    .universal .paws {
+        float: left;
+        margin: 10px 19px;
+    }
+
+    .fa-paw {
+        color: #681A1A;
+        font-size: 30px;
+    }
+
+    /* Paws */
+
+    /* Video */
+
+    .row-videos .content {
+        width: 330px;
+        padding: 0;
+        height: fit-content;
+        border-radius: 18px;
+        background-color: #FCEAD7;
+        margin: 0px auto 20px auto;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    .row-videos .content video {
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+
+    .row-videos .content .video-explanation {
+        padding: 5px 10px 10px 10px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    /* Video */
+
+    /* mainbutton */
+
+    #homepage-mainbutton {
+        margin: 10px auto;
+        border-radius: 20px;
+        border: none;
+        width: 80%;
+        padding: 20px;
+        font-weight: bold;
+        background-color: #F5D069;
+        color: #A52A2A;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(-4px -4px 4px rgba(0, 0, 0, 0.25));
+    }
+
+    /* mainbutton */
+
+    /* Testimonials */
+
+    .testimonials-container .content {
+        margin-bottom: 18px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .testimonials-container .content img {
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 18px;
+        border-top-right-radius: 18px;
+    }
+
+    .testimonials img {
+        width: 100%;
+    }
+
+    /* Testimonials */
+
+    /* maps */
+    .maps {
+        width: 100%;
+        height: fit-content;
+        margin: 0 auto;
+        border-radius: 18px;
+    }
+
+    .embed {
+        width: 100%;
+    }
+
+    .maps {
+        height: 220px;
+        margin-bottom: 120px;
+    }
+
+    .maps #map-container-google-1 {
+        width: 100%;
+        height: 300px;
+        margin-top: 20px;
+    }
+
+    #map-container-google-1 iframe {
+        border-radius: 18px;
+        width: 100%;
+        height: 50%;
+    }
+    /* maps */
+
+    /* footer */
+
+    footer h4 {
+        color: #8a2222e1;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    footer {
+        width: 100%;
+        height: fit-content;
+        margin-top: 55px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 30px 30px 0px 30px;
+    }
+
+    footer ul {
+        display: flex;
+        text-align: center;
+    }
+
+    footer .social-media {
+        width: fit-content;
+        padding-top: 25px;
+        margin: 0 auto 40px auto;
+    }
+
+    footer .list-item {
+        font-size: 30px;
+        margin: 0 30px;
+    }
+
+    footer .fa-instagram {
+        color: rgb(228, 63, 91) !important;
+    }
+
+    footer .fa-telegram {
+        color: rgb(0, 192, 250) !important;
+    }
+
+    /* footer */
+
+    /* Payment */
+
+    /* Payment */
+
+    .payment-menu {
+        padding-top: 30px;
+        margin: 30px auto 120px auto;
+    }
+
+    .payment-menu h1 {
+        font-weight: bold;
+        padding-top: 100px;
+    }
+
+    .payment-button {
+        margin: 20px auto 30px auto;
+        border-radius: 23px;
+        border: none;
+        width: 80%;
+        padding: 17px 10px;
+        color: white;
+        font-size: 20px;
+        font-weight: 630;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+    /* Payment */   
+
+    /* About Us */
+    .container-aboutus {
+        margin: 100px auto;
+        padding: 20px;
+    }
+
+    .container-image {
+        margin: 25px auto;
+        width: 250px;
+        border-radius: 20px;
+    }
+
+    .container-image img {
+        border-radius: 20px;
+    }
+
+    .aboutus-description {
+
+    }
+
+    /* About Us */
+
+    /* Product Details: Dog Care, Dog Needs */
+    .product-detail {
+        margin-top: 100px;
+    }
+
+    .buy-button {
+        margin: 20px auto 30px auto;
+        border-radius: 23px;
+        border: none;
+        width: 100%;
+        padding: 8px 10px;
+        background-color: #F5D069;
+        color: #D1330D;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    .buy-button h3 {
+        font-size: 16px;
+    }
+
+    .carousel {
+        margin-top: 20px;
+    }
+
+    .dogcare-carousel .carousel-item {
+        margin-top: 7px;
+    }
+
+    .dogcare-carousel .carousel-item .dogcare-image {
+        border-radius: 25px;
+    }
+
+    .dogcare-paragraph {
+        padding: 15px 5px;
+        text-align: justify;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    /* Product Detail(Dog Care & Dog Needs) */
+
+    #dog-needs-img {
+        border-radius: 20px;
+    }
+
+    #dog-needs-name {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #dog-needs-button-container {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center ;
+    }
+
+    #dog-needs-buy-button {
+        border-radius: 18px;
+        padding: 13px;
+        border: none;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #F5D069;
+        color: #D1330D;
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    .button-fit-content {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .row-wishlist-cart {
+        margin: 0 auto;
+        /* padding-top: 5%; */
+        justify-content: center;
+        /* padding-left: 35%;
+        padding-right: 35%; */
+    }
+
+    #dog-needs-cart-container {
+        width: fit-content;
+        padding: 0;
+        margin: 0px 10px;
+    }
+
+    #dog-needs-cart, #dog-needs-wishlist {
+        border-radius: 100%;
+        border: none;
+        width: fit-content;
+        padding: 10px 10px 7px 10px;
+        font-size: 25px;
+        background-color: #F5D069;
+        color: #D1330D;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    #dog-needs-cart:hover, #dog-needs-wishlist:hover, #dog-needs-buy-button:hover {
+        background-color: #D1330D;
+        color: #F5D069;
+        transition: 250ms;
+    }
+
+    #dog-needs-detail-footer {
+        margin-top: 30px;
+    }
+    /* Product Detail(Dog Care & Dog Needs) */
+
+    /* Dogcare list */
+    #dogcarelist-title {
+        font-family: 'Poppins', sans-serif;
+        text-align: justify;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .dogcare-list-item {
+        margin-bottom: 100px;
+    }
+
+    .dogcare-list-item-name {
+        color: #A52A2A;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .dogcare-list-item-description p {
+        height: 70%;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .dogcare-list-item-description .dogcare-list-item-buy-button {
+        height: 30%;
+        border-radius: 20px;
+        border: none;
+        width: 100%;
+        background-color: #F5D069;
+        color: #D1330D;
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    .dogcare-list-item-buy-button:hover{
+        transition: 400ms;
+        background-color: #D1330D;
+        color: #F5D069;
+    }
+
+    .dogcare-list-item-img {
+        border-radius: 20px;
+    }
+
+    .dogcare-list-item-description {
+        padding: 20px;
+    }
+
+    #dog-care-list-footer {
+        margin-top: 20px;
+    }
+    /* Dogcare list */
+
+    /* Dog List */
+    .dog-type-link {
+        text-decoration: none;
+        color: #A52A2A;
+    }
+
+    .dog-type-link:hover {
+        color: #A52A2A;
+    }
+
+    .dog-type-container {
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    }
+
+    .dog-type-container:hover {
+        transition: 1000ms;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+    }
+
+    .productlist-text-container:hover,.doglist-text-container:hover {
+        transition: 400ms;
+        background-color: #fdd1a6;
+    }
+
+    .dog-type-container:hover {
+        transition: 400ms;
+        background-color: chocolate;
+        box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.25);
+    }
+
+    .dog-list-img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .doglist-name {
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: #A52A2A;
+    }
+
+    .doglist-description {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
+
+    .doglist-details-button {
+        float: right;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 30px;
+        color: #D1330D;
+        background-color: #F5D069;
+        font-family: 'Poppins', sans-serif;
+        box-shadow:0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    .doglist-details-button:hover {
+        transition: 250ms;
+        color: #F5D069;
+        background-color: #D1330D;
+        font-weight: 700;
+    }
+
+    .card-body {
+        background-color: #fbe5ce;
+        /* border: 1px solid #A52A2A; */
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    /* Dog List */
+
+    /* Product List */
+    .product-list-row {
+        
+    }
+
+    .product-list-link {
+        text-decoration: none;
+    }
+    .product-list-link .product-list-name {
+        color: #A52A2A;
+    }
+
+    .product-list-price {
+        color: #D1330D;
+    }
+
+    .product-type-container {
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .product-type-container:hover {
+        transition: 1000ms;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.4);
+        background-color: chocolate;
+    }
+
+    .product-list-img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .product-list-button {
+        width: 100%;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: #D1330D;
+        background-color: #F5D069;
+        font-family: 'Poppins', sans-serif;
+        box-shadow:0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    .product-list-button:hover {
+        transition: 300ms;
+        background-color: #D1330D;
+        color: #F5D069;
+        box-shadow:0px 12px 12px rgba(0, 0, 0, 0.25);
+    }
+
+    .mb-20 {
+        margin-bottom: 20px;
+    }
+
+    /* Product List */
+
+    /* Dog Details */
+    .dog-main-pic-container {
+        margin: 0px auto 15px auto;
+        padding: 0;
+    }
+
+    .dog-subimg-container {
+        border-radius: 20px;
+        margin: 0 auto;
+        border: none;
+        width: 60%;
+        height: 60%;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25), 10px 10px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .dog-subimg-container:hover {
+        transition: 400ms;
+        box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.25), 30px 30px 50px rgba(0, 0, 0, 0.25);
+    }
+
+    .dog-details-main-pic {
+        margin: 0 auto;
+        border-radius: 25px;
+    }
+
+    .dog-details-name {
+        font-size: 60px;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .dog-detail-subimg {
+        border-radius: 20px;
+    }
+
+    .mb-20 {
+        margin-bottom: 20px;
+    }
+
+    .dog-details-video-container {
+        border-radius: 20px;
+    }
+
+    .dog-details-video-container video {
+        border-radius: 20px;
+    }
+    /* Dog Details */
+
+    /* Cart */
+    table {
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .table-rounded {
+        background-color: #FDF4EB;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        padding: 20px;
+    }
+
+    .table-rounded tr, .table-rounded td {
+        border-bottom: none;
+    }
+
+    .table-img {
+        border-radius: 18px;
+    }
+
+    .table-img1 {
+        border-radius: 18px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .table-item-name {
+        color: #D1330D;
+    }
+
+    .column-title {
+        font-size: 15px;
+        font-weight: bold;
+        color: #681A1A;
+    }
+
+    #cart-payment-button {
+        width: 100%;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 20px;
+        color: #D1330D;
+        background-color: #F5D069;
+        font-family: 'Poppins', sans-serif;
+        box-shadow:0px 6px 6px rgba(0, 0, 0, 0.25);
+    }
+
+    #cart-payment-button:hover {
+        transition: 400ms;
+        background-color: #D1330D;
+        color: #F5D069;
+    }
+
+    .mt20 {
+        margin-top: 20px;
+    }
+
+    /* Cart */
+}

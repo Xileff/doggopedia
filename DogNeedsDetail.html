@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/header-dog.png"/>
+    <title>Dog Needs Detail</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md fixed-top">
+            <a href="Homepage.html" class="navbar-brand">
+                <span>
+                    <img src="/images/header-dog.png" alt="doggopedia_logo">
+                </span>
+                <p>DoggoPedia</p>
+            </a>
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle ="collapse"
+            data-bs-target = "#toggleMobileMenu"
+            aria-controls="toggleMobileMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <span>
+                <i class="fas fa-list"></i>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ms-auto text-center">
+                <li>
+                    <a class="nav-link" href="DogList.html">Buy Dogs</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="ProductList.html">Dog Needs</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="DogCareList.html">Dog Care</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="Homepage.html#map-title">Find Us</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="AboutUs.html">About Us</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+        <!-- Navbar -->
+        <section class="container-fluid container-sm container-md container-lg container-xl product-detail">
+            <div class="row">
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <img id="dog-needs-img" src="/images/Product List/makanan1.jpg" alt="product image" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div id="dog-needs-name" class="row">
+                        <h1 class="text-center">Raw Chicken</h1>
+                        <h3>IDR 79K</h3>
+                        <p id="dog-needs-description-container">
+                            Meat – Is a fundamental component of a dog’s diet and, raw muscle meats provide high quality and easily digestible protein - the building blocks of good health and immunity. As well as this, an array of essential fats, vitamins and minerals can be found in raw meat proteins which unlike heavily processed sources of meat products, are not diminished through the cooking process. Providing your pup with a variety of different fresh meat proteins also ensures they have access to a range of micronutrients, benefitting their overall health.
+                        </p>
+                        <div id="dog-needs-buttons-container" class="row">
+                            <a href="Payment.html" class="button-fit-content">
+                                <button id="dog-needs-buy-button" class="col-sm-7 col-md-7 col-lg-7">Buy Now</button>
+                            </a>
+                            <div class="row col-sm-5 col-md-5 col-lg-5 row-wishlist-cart">
+                                <a href="Cart.html" id="dog-needs-cart-container" class="col-sm-4 col-md-4 col-lg-4">
+                                    <button id="dog-needs-cart">
+                                        <span><i class="fas fa-shopping-cart"></i></span>
+                                    </button>
+                                </a>
+                                <button id="dog-needs-wishlist" class="col-sm-4 col-md-4 col-lg-4" onclick="redBackground();">
+                                    <span>
+                                        <i id="icon-wishlist" class="fas fa-heart"></i>
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <!-- Footer -->
+    <footer id="dog-needs-detail-footer">
+        <div class="row text">
+            <h4>&copy; Copyright 2021 by Felix Savero</h4>
+        </div>
+        <div class="row">
+            <div class="container social-media">
+                <ul>
+                    <li class="list-item col-sm-4 col-md-4 col-lg-4">
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="list-item col-sm-4 col-md-4 col-lg-4">
+                        <a href="#">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="list-item col-sm-4 col-md-4 col-lg-4">
+                        <a href="#">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- Back to top button -->
+    <button
+    type="button"
+    class="btn btn-warning btn-floating btn-lg circle"
+    id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="btnTop.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+        function redBackground() {
+            document.getElementById("icon-wishlist").style.color = "#D1330D";
+
+            alert("Added to wishlist");
+        }
+        
+    </script>
+</body>
+</html>
